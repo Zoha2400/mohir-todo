@@ -1,5 +1,5 @@
 function project_input() {
-  return <div>project_input</div>;
+  return <div className="text-black">projects</div>;
 }
 
 export default project_input;

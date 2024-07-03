@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Icon } from "@iconify/react";
 import Search_input from "./search_input";
+import Projects_block from "./projects_block";
 function Projects() {
   return (
     <div className="w-6/12 h-full flex flex-col gap-12 items-center bg-black">
@@ -19,6 +20,8 @@ function Projects() {
         </p>
 
         <Search_input />
+
+        <Projects_block />
       </section>
     </div>
   );
